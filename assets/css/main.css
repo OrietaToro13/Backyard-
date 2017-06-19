@@ -1,0 +1,111 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.seccion-nav{
+    max-height: 80px;
+    align-items: center;
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 26px;
+    z-index: 1;
+    font-weight: 500;
+}
+#nav-bar {
+	width: 100%;
+	justify-content: flex-start;
+}
+.logo-container{
+    margin-left: auto;
+    margin-right: 217px;
+    margin-top: 7px;
+}
+.logo-container a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+#logo-white{
+    width: 15%;
+    max-height: 80px;
+	padding: 15px;
+	margin-left: 82px;
+}
+#secciones{
+    width: 63%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 56px;
+    font-weight: 200;
+}
+.flex-container {
+    display: flex;
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+/* SECCION DOS */
+.flex-container.main{
+	flex-direction: row;
+	justify-content: space-around;
+	background-color:#7D7786;
+	margin-top: 38px;
+}
+.get-started{
+	flex-direction: column;
+	background-color: #605C66;
+    border-radius: 11px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.get-started h1{
+	text-align: center;
+	color: white;
+}
+.get-started input{
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.get-started button{
+    background-color: tomato;
+    border-radius: 6px;
+    box-shadow: none;
+    border-color: transparent;
+    height: 40px;
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 14px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: white
+}
+.text,.get-started{
+    width: 27%;
+    color: white;
+}
+/* FOOTER */
+footer{
+	background-color: whitesmoke;
+    height: 53px;
+    margin-top: -15px;
+}
+footer p{
+	margin-left:80px;
+}
